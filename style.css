@@ -1,0 +1,224 @@
+body{
+    background-color:#f3f1ff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header section design start */
+header{
+background-color: blue;
+
+}
+.header-section{
+    width: 100%;
+    
+    
+    padding: 10px 0;
+    color:white;
+}
+
+.header-nav ul{
+list-style:none;
+display: flex;
+margin-top: 30px;
+}
+.header-nav ul li{
+    margin-left: 25px;
+    font-size: 1rem;
+    padding-top: 10px;
+   
+}
+.header-nav{
+    margin-left:20px;
+   height:550px;
+  
+   
+}
+.header-nav h1{
+    
+    
+    
+   
+    font-size: 3.3rem;
+    margin-top: 0px;
+    margin-right: 180px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+
+}
+.button-1{
+    
+    color: white;
+    background-image: linear-gradient(to right,#fa1735,#fa1735);
+    width: 80px;
+    height: 70px;
+        
+    
+        margin-left: 1000px; 
+        
+        margin-right: 120px;
+        display: flex; 
+        text-align: center;
+       
+       
+}
+.button-1 p{
+    padding-right: 40px;
+}
+.duration{
+    
+    color: white;
+    background-image: linear-gradient(to right,#fa1735,#fa1735);
+        
+    
+        margin-left: 40px; 
+       
+        margin-right: 400px;
+        display: flex;
+        border-radius: 10px;
+    }
+    .duration img{
+        width: 20px;
+        height: 40px;
+        margin-top: 20px;
+        
+    }
+    .duration p{
+        padding: 5px 5px;
+        color: white;
+
+    }
+    .duration i{
+        padding: 27px 10px;
+    }
+    .first-intro-section-right-side{
+        margin-right: 0px;
+    }
+    
+    .first-intro-section{
+        display:flex;
+    }
+    .first-intro-section img{
+        height: 270px;
+        width: 120px;
+        margin-top: 20px;
+     
+
+    }
+    .first-intro-section-right-side img{
+        height: 350px;
+      width: 500px;
+      margin-right: 195px;
+      margin-top: 0px;
+      
+    }
+        /* header section design end */
+
+
+        /* card design start */
+    .all-cards{
+        display: grid;
+        grid-template-columns: repeat(3, 4fr);
+        width: 80%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+       margin-left: 160px;
+        margin-right: 150px;
+        grid-gap:25px
+    }
+    .all-cards img{
+        height: 230px;
+      width: 280px;
+      
+    }
+    .card{
+        border: 15px solid white;
+       
+        width: 280px;
+        
+    }
+    .main-card-section{
+       
+        width: 100%;
+    }
+    /* card design end */
+
+    /* highlight design start */
+    .Highlight h4{
+        margin-left: 160px;
+        font-size: 2.5rem;
+        margin-right: 80px;
+        margin-bottom: 0px;
+    }
+    .Highlight p{
+        margin-left: 160px;
+       margin-right: 150px;
+       margin-top: 0px;
+       margin-bottom: 0px;
+    }
+    .Highlight{
+        display: flex;
+        
+    }
+.last-intro-section-right-side img{
+    height: 350px;
+    width: 500px;
+    margin-right: 195px;
+    margin-top: 0px;
+}
+
+    /* highlight design end */
+   
+    .duration-2{
+        margin-left: 100px;
+        margin-right: 600px;
+        margin-top: 0px;
+    }
+    /* last section start */
+    .last-section img{
+        margin-left: 420px;
+        height: 90px;
+        width: 400px;
+    }
+    .icon{
+        margin-left:700px ;
+    }
+    footer{
+        margin-left: 630px;
+    }
+    .Identy{
+        margin-left: 50px;
+        background-color: rgb(193, 253, 233);
+        margin-right: 1000px;
+        border-radius: 10px;
+    }
+     /* last section end */
+
+     /* responsive design start */
+     @media screen and (max-width: 600px) {
+        .header-section{
+           flex-direction: column;
+           
+        }
+        .header-nav h1{
+            margin-left: 0px;
+        }
+        .header-nav ul{
+            flex-direction: column;
+        }
+        .last-section{
+            flex-direction: column;
+        }
+        .last-intro-section-right-side{
+        margin-top: 200px;
+        }
+       footer{
+        margin-left: 700px;
+       }
+       }
+        
+      /* responsive design start */
+
+
+
